@@ -166,8 +166,8 @@
           "name" : "ExtractText",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 585.7500334975223,
-            "y" : 604.1519619696985
+            "x" : 1152.0,
+            "y" : 600.0
           },
           "properties" : {
             "Enable Unicode Predefined Character Classes" : "false",
