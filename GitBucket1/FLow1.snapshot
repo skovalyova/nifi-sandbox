@@ -166,7 +166,7 @@
           "name" : "ExtractText",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 1152.0,
+            "x" : 1352.0,
             "y" : 600.0
           },
           "properties" : {
