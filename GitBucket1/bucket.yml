@@ -1,6 +1,5 @@
 flows:
-  a19af515-3f1a-4f06-87ba-8bb2435ad2a7: {ver: 4, file: FLow1.snapshot, comments: Move
-      top block again, author: anonymous, created: 1596800422742, flowName: FLow1,
-    flowDesc: ''}
+  a19af515-3f1a-4f06-87ba-8bb2435ad2a7: {ver: 5, file: FLow1.snapshot, comments: Move
+      center block, author: anonymous, created: 1596801099175, flowName: FLow1, flowDesc: ''}
 layoutVer: 1
 bucketId: 427336b6-8384-4554-91a4-41b58eb48fb1
