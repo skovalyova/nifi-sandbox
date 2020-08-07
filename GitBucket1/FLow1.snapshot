@@ -1,6 +1,6 @@
 {
   "header" : {
-    "dataModelVersion" : "13"
+    "dataModelVersion" : "3"
   },
   "content" : {
     "flowSnapshot" : {
@@ -166,7 +166,7 @@
           "name" : "ExtractText",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 1352.0,
+            "x" : 1400.0,
             "y" : 600.0
           },
           "properties" : {
