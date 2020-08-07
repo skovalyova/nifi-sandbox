@@ -519,8 +519,8 @@
           "name" : "GenerateFlowFile",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 563.2500792738895,
-            "y" : 185.00000132974483
+            "x" : 568.0,
+            "y" : 24.0
           },
           "properties" : {
             "character-set" : "UTF-8",
