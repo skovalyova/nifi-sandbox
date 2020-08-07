@@ -1,6 +1,6 @@
 {
   "header" : {
-    "dataModelVersion" : "4"
+    "dataModelVersion" : "3"
   },
   "content" : {
     "flowSnapshot" : {
@@ -15,13 +15,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "bf0e147d-eac6-3126-955f-234a8c46b63c",
+            "groupId" : "3f74dbd7-cb96-3351-83a4-578097418e87",
             "id" : "16a5973d-969d-32d9-86ff-5645c4af95a4",
             "name" : "ReplaceText",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "bf0e147d-eac6-3126-955f-234a8c46b63c",
+          "groupIdentifier" : "3f74dbd7-cb96-3351-83a4-578097418e87",
           "identifier" : "c0f04056-1fdb-3dee-86cc-d4e354637697",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -31,7 +31,7 @@
           "selectedRelationships" : [ "matched" ],
           "source" : {
             "comments" : "",
-            "groupId" : "bf0e147d-eac6-3126-955f-234a8c46b63c",
+            "groupId" : "3f74dbd7-cb96-3351-83a4-578097418e87",
             "id" : "0d806f32-fbfb-3ab9-bff2-4abfd977382d",
             "name" : "ExtractText",
             "type" : "PROCESSOR"
@@ -44,13 +44,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "bf0e147d-eac6-3126-955f-234a8c46b63c",
+            "groupId" : "3f74dbd7-cb96-3351-83a4-578097418e87",
             "id" : "0d806f32-fbfb-3ab9-bff2-4abfd977382d",
             "name" : "ExtractText",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "bf0e147d-eac6-3126-955f-234a8c46b63c",
+          "groupIdentifier" : "3f74dbd7-cb96-3351-83a4-578097418e87",
           "identifier" : "1dde1ca5-458e-36fa-9251-c091df18685a",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -60,7 +60,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "bf0e147d-eac6-3126-955f-234a8c46b63c",
+            "groupId" : "3f74dbd7-cb96-3351-83a4-578097418e87",
             "id" : "86f23410-ad1f-3fc0-9ec3-fd3e3ffa20eb",
             "name" : "ReplaceText",
             "type" : "PROCESSOR"
@@ -73,13 +73,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "bf0e147d-eac6-3126-955f-234a8c46b63c",
+            "groupId" : "3f74dbd7-cb96-3351-83a4-578097418e87",
             "id" : "aaef7a0d-36df-32cb-a734-b994784cee0f",
             "name" : "UpdateAttribute",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "bf0e147d-eac6-3126-955f-234a8c46b63c",
+          "groupIdentifier" : "3f74dbd7-cb96-3351-83a4-578097418e87",
           "identifier" : "a388deb7-d7cb-316d-9a6a-6e7133753c0b",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -89,7 +89,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "bf0e147d-eac6-3126-955f-234a8c46b63c",
+            "groupId" : "3f74dbd7-cb96-3351-83a4-578097418e87",
             "id" : "16a5973d-969d-32d9-86ff-5645c4af95a4",
             "name" : "ReplaceText",
             "type" : "PROCESSOR"
@@ -102,13 +102,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "bf0e147d-eac6-3126-955f-234a8c46b63c",
+            "groupId" : "3f74dbd7-cb96-3351-83a4-578097418e87",
             "id" : "86f23410-ad1f-3fc0-9ec3-fd3e3ffa20eb",
             "name" : "ReplaceText",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "bf0e147d-eac6-3126-955f-234a8c46b63c",
+          "groupIdentifier" : "3f74dbd7-cb96-3351-83a4-578097418e87",
           "identifier" : "48f6dc5e-c518-35cc-940a-874ac2904944",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -118,7 +118,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "bf0e147d-eac6-3126-955f-234a8c46b63c",
+            "groupId" : "3f74dbd7-cb96-3351-83a4-578097418e87",
             "id" : "1f892406-7a95-313b-a9e4-e6daa9d7e140",
             "name" : "GenerateFlowFile",
             "type" : "PROCESSOR"
@@ -127,11 +127,11 @@
         } ],
         "controllerServices" : [ ],
         "funnels" : [ ],
-        "identifier" : "bf0e147d-eac6-3126-955f-234a8c46b63c",
+        "identifier" : "3f74dbd7-cb96-3351-83a4-578097418e87",
         "inputPorts" : [ ],
         "labels" : [ {
           "componentType" : "LABEL",
-          "groupIdentifier" : "bf0e147d-eac6-3126-955f-234a8c46b63c",
+          "groupIdentifier" : "3f74dbd7-cb96-3351-83a4-578097418e87",
           "height" : 281.4172668457031,
           "identifier" : "90f9e9b5-6650-3002-bc84-403de9f8ba46",
           "label" : "",
@@ -145,8 +145,8 @@
         "name" : "TestTemplatePG",
         "outputPorts" : [ ],
         "position" : {
-          "x" : 1184.0,
-          "y" : 232.0
+          "x" : 511.0,
+          "y" : 265.0
         },
         "processGroups" : [ ],
         "processors" : [ {
@@ -161,7 +161,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "bf0e147d-eac6-3126-955f-234a8c46b63c",
+          "groupIdentifier" : "3f74dbd7-cb96-3351-83a4-578097418e87",
           "identifier" : "0d806f32-fbfb-3ab9-bff2-4abfd977382d",
           "name" : "ExtractText",
           "penaltyDuration" : "30 sec",
@@ -297,7 +297,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "bf0e147d-eac6-3126-955f-234a8c46b63c",
+          "groupIdentifier" : "3f74dbd7-cb96-3351-83a4-578097418e87",
           "identifier" : "aaef7a0d-36df-32cb-a734-b994784cee0f",
           "name" : "UpdateAttribute",
           "penaltyDuration" : "30 sec",
@@ -354,7 +354,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "bf0e147d-eac6-3126-955f-234a8c46b63c",
+          "groupIdentifier" : "3f74dbd7-cb96-3351-83a4-578097418e87",
           "identifier" : "86f23410-ad1f-3fc0-9ec3-fd3e3ffa20eb",
           "name" : "ReplaceText",
           "penaltyDuration" : "30 sec",
@@ -434,7 +434,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "bf0e147d-eac6-3126-955f-234a8c46b63c",
+          "groupIdentifier" : "3f74dbd7-cb96-3351-83a4-578097418e87",
           "identifier" : "16a5973d-969d-32d9-86ff-5645c4af95a4",
           "name" : "ReplaceText",
           "penaltyDuration" : "30 sec",
@@ -514,13 +514,13 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "bf0e147d-eac6-3126-955f-234a8c46b63c",
+          "groupIdentifier" : "3f74dbd7-cb96-3351-83a4-578097418e87",
           "identifier" : "1f892406-7a95-313b-a9e4-e6daa9d7e140",
           "name" : "GenerateFlowFile",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 563.2500792738895,
-            "y" : 185.00000132974483
+            "x" : 736.0,
+            "y" : -8.0
           },
           "properties" : {
             "character-set" : "UTF-8",
