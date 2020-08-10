@@ -341,8 +341,8 @@
           "name" : "LogMessage",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 48.0,
-            "y" : 520.0
+            "x" : -80.0,
+            "y" : 536.0
           },
           "properties" : {
             "log-level" : "info"
