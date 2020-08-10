@@ -2,8 +2,5 @@ flows:
   1073a7f2-23db-4f63-ba71-c0c654b5d83a: {ver: 1, file: TestPythonScript1.snapshot,
     comments: '', author: anonymous, created: 1597060053027, flowName: TestPythonScript1,
     flowDesc: ''}
-  aee4a71d-d1dd-42c6-8029-5ee8f3512b1c: {ver: 1, file: TestPythonScript.snapshot,
-    comments: Initial commit, author: anonymous, created: 1597057858645, flowName: TestPythonScript,
-    flowDesc: ''}
 layoutVer: 1
 bucketId: 2593d65b-e389-46e8-9297-28155bf40a18
