@@ -98,6 +98,36 @@
             "type" : "PROCESSOR"
           },
           "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "1ca829ee-73da-3302-b515-0862b7a6851b",
+            "id" : "9a15261f-d9ab-3086-a602-b3b166999b48",
+            "name" : "LogMessage",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "1ca829ee-73da-3302-b515-0862b7a6851b",
+          "identifier" : "1cbca39d-be8b-3db2-a08c-333f0577580f",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "unmatched" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "1ca829ee-73da-3302-b515-0862b7a6851b",
+            "id" : "77da8b5a-f7d8-356d-8568-443f4012dcd5",
+            "name" : "RouteOnAttribute",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
         } ],
         "controllerServices" : [ {
           "bundle" : {
@@ -307,16 +337,68 @@
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
           "groupIdentifier" : "1ca829ee-73da-3302-b515-0862b7a6851b",
+          "identifier" : "9a15261f-d9ab-3086-a602-b3b166999b48",
+          "name" : "LogMessage",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 48.0,
+            "y" : 520.0
+          },
+          "properties" : {
+            "log-level" : "info"
+          },
+          "propertyDescriptors" : {
+            "log-message" : {
+              "displayName" : "Log message",
+              "identifiesControllerService" : false,
+              "name" : "log-message",
+              "sensitive" : false
+            },
+            "log-level" : {
+              "displayName" : "Log Level",
+              "identifiesControllerService" : false,
+              "name" : "log-level",
+              "sensitive" : false
+            },
+            "log-prefix" : {
+              "displayName" : "Log prefix",
+              "identifiesControllerService" : false,
+              "name" : "log-prefix",
+              "sensitive" : false
+            }
+          },
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.LogMessage",
+          "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ ],
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.11.4"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "1ca829ee-73da-3302-b515-0862b7a6851b",
           "identifier" : "352a5598-1e69-37cb-aeb4-c1deb023ddf8",
           "name" : "ExecuteStreamCommand",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 592.0,
-            "y" : 584.0
+            "x" : 616.0,
+            "y" : 560.0
           },
           "properties" : {
             "argumentsStrategy" : "Command Arguments Property",
             "Max Attribute Length" : "256",
+            "Command Path" : "/opt/nifi/nifi-current/dc2_in/scripts/test.sh",
+            "Working Directory" : "/opt/nifi/nifi-current/dc2_in/scripts",
             "Argument Delimiter" : ";",
             "Ignore STDIN" : "false"
           },
