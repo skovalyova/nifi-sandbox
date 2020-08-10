@@ -1,6 +1,5 @@
 flows:
-  f9e4b0b9-7df0-49a8-80d0-79ffb97800cb: {ver: 2, file: TestPythonScript.snapshot,
-    comments: Change settings for working dir, author: anonymous, created: 1597070997421,
-    flowName: TestPythonScript}
+  f9e4b0b9-7df0-49a8-80d0-79ffb97800cb: {ver: 3, file: TestPythonScript.snapshot,
+    comments: Move block, author: anonymous, created: 1597070997886, flowName: TestPythonScript}
 layoutVer: 1
 bucketId: 54d99dc9-93ce-4a43-9fb5-9796ac154d9f
