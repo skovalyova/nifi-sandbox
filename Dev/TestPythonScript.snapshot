@@ -135,6 +135,7 @@
             "group" : "org.apache.nifi",
             "version" : "1.11.4"
           },
+          "comments" : "",
           "componentType" : "CONTROLLER_SERVICE",
           "controllerServiceApis" : [ {
             "bundle" : {
@@ -341,8 +342,8 @@
           "name" : "LogMessage",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : -88.0,
-            "y" : 432.0
+            "x" : 152.0,
+            "y" : 504.0
           },
           "properties" : {
             "log-level" : "info"
