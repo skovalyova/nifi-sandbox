@@ -2699,8 +2699,8 @@
           "name" : "Notify in Teams",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 2600.0,
-            "y" : 320.0
+            "x" : 2712.0,
+            "y" : 296.0
           },
           "properties" : {
             "argumentsStrategy" : "Command Arguments Property",
