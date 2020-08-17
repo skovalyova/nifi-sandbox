@@ -15,13 +15,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "02812cb1-43b8-3768-8e30-f2b3d788572d",
             "name" : "Notify in Teams",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "370479ab-cb26-35ed-a421-7a6c95d738d6",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -32,7 +32,7 @@
           "selectedRelationships" : [ "original" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "ffc094a5-fd91-3075-9b9f-486f027730b1",
             "name" : "Pack Projects",
             "type" : "PROCESSOR"
@@ -45,13 +45,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "4d5b1e31-a254-3b82-93b1-ddc5334f0b32",
             "name" : "StackOutputs",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "133604c8-88c0-3a67-bc72-14667c68a751",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -62,7 +62,7 @@
           "selectedRelationships" : [ "output stream" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "9cc291be-33b6-3bce-b10c-e9b3f21d4d8d",
             "name" : "Pull",
             "type" : "PROCESSOR"
@@ -75,13 +75,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "3bf8534c-e60d-3fa3-a8a7-5cd66f65d69d",
             "name" : "Push files",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "74495184-fcfe-3382-99c0-81d27fb003f6",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -92,7 +92,7 @@
           "selectedRelationships" : [ "original" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "6aa7ef08-a067-3b31-b783-3ef8e1f9eb50",
             "name" : "Push files: prepare",
             "type" : "PROCESSOR"
@@ -105,13 +105,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "ac608779-51fd-3f69-a397-e69becda618a",
             "name" : "Create dump Folder",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "9c73e90a-645e-3ec5-9303-2ebfd7d54776",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -122,7 +122,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "874c3837-756d-33ce-9547-93f28bf63c0f",
             "name" : "Set tmp folder",
             "type" : "PROCESSOR"
@@ -135,13 +135,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "976ad8c9-7724-3932-a39d-d0eb517e14c8",
             "name" : "StackOutputs",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "bdd574e1-488c-39c9-a47d-1d65829d1da2",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -152,7 +152,7 @@
           "selectedRelationships" : [ "output stream" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "ffc094a5-fd91-3075-9b9f-486f027730b1",
             "name" : "Pack Projects",
             "type" : "PROCESSOR"
@@ -165,13 +165,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "b692bf08-a599-3ec9-aac5-00b95ab6acb1",
             "name" : "StackOutputs",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "cbb577f0-8b29-3064-bcbe-cbb7c5f83715",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -182,7 +182,7 @@
           "selectedRelationships" : [ "output stream" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "26e64df6-46bc-3520-bee0-67a109164e0a",
             "name" : "Create Projects",
             "type" : "PROCESSOR"
@@ -195,13 +195,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "3e4ff281-0b6f-3bc5-9829-336d3e752a84",
             "name" : "Notify in Teams",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "2165d3c2-0201-39f4-afbe-617e984694db",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -212,7 +212,7 @@
           "selectedRelationships" : [ "original" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "3bf8534c-e60d-3fa3-a8a7-5cd66f65d69d",
             "name" : "Push files",
             "type" : "PROCESSOR"
@@ -225,13 +225,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "d5ab412e-a0bd-35e4-981b-33272812aa1f",
             "name" : "Query params to attributes ",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "c357aa0b-1e4a-3451-b9ce-43fcbdd18bdf",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -242,7 +242,7 @@
           "selectedRelationships" : [ "applyDump", "push-files-with-list", "get-file" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "9a0a7f24-c7ab-38ee-96ef-bc02ded8c780",
             "name" : "Routes",
             "type" : "PROCESSOR"
@@ -255,13 +255,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "e797b7e5-00d1-34ed-ac6f-3bf0989592c5",
             "name" : "Remove .svn",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "7c567004-5c8e-3067-a292-1bf5650cc40b",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -272,7 +272,7 @@
           "selectedRelationships" : [ "original" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "7478b04d-8852-3c99-8e04-42400ada7447",
             "name" : "Dump Projects",
             "type" : "PROCESSOR"
@@ -285,13 +285,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "c704c5b1-77cd-3030-be06-0197c72c847f",
             "name" : "return status:processing",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "bf1bf727-4775-380f-9710-2c0b9899e3e2",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -302,7 +302,7 @@
           "selectedRelationships" : [ "original" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "0c1b1889-3c45-3a00-b4fa-c8f33a7bfbd8",
             "name" : "Unpack Projects",
             "type" : "PROCESSOR"
@@ -315,13 +315,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "ffc094a5-fd91-3075-9b9f-486f027730b1",
             "name" : "Pack Projects",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "f71cbbeb-3447-3cb4-aa93-21ef42be8d2d",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -332,7 +332,7 @@
           "selectedRelationships" : [ "original" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "e797b7e5-00d1-34ed-ac6f-3bf0989592c5",
             "name" : "Remove .svn",
             "type" : "PROCESSOR"
@@ -345,13 +345,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "c8a88866-c861-3652-97f7-0c534158eb2c",
             "name" : "return error: invalid json",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "6425a7bf-ff8d-3700-89dc-8ea1e47c3fd1",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -362,7 +362,7 @@
           "selectedRelationships" : [ "failure" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "e801ffa8-2768-30ac-b099-2bab084f0b4e",
             "name" : "Json file to attributes",
             "type" : "PROCESSOR"
@@ -375,13 +375,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "abfa6a00-cddc-3cf8-870b-99f399dd870a",
             "name" : "PutFile",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "8145a834-fff8-361e-93e3-dc8bb96d3391",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -392,7 +392,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "fc06877c-5a15-357f-91d3-fce2e9ddc1b7",
             "name" : "Set tmp file name",
             "type" : "PROCESSOR"
@@ -405,13 +405,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "389ab117-ca8c-3fef-9cce-e213f6394f88",
             "name" : "RemoveDir",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "af9bc5d4-970b-324a-866e-11bce13586c6",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -422,7 +422,7 @@
           "selectedRelationships" : [ "original" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "9815951c-8b91-35ce-9079-9881b2550872",
             "name" : "Apply dump",
             "type" : "PROCESSOR"
@@ -435,13 +435,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "f93353c9-0fed-3563-b2ce-b70971f8100f",
             "name" : "HandleHttpResponse",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "c9a35c91-fcb3-3a72-bbee-15a466f7690e",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -452,7 +452,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "c8a88866-c861-3652-97f7-0c534158eb2c",
             "name" : "return error: invalid json",
             "type" : "PROCESSOR"
@@ -465,13 +465,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "4beb008d-9290-3b4a-9b16-838e4d230c30",
             "name" : "Routes",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "f2e990a0-b409-3598-bf08-82755973d13e",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -482,7 +482,7 @@
           "selectedRelationships" : [ "unmatched" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "b8d8a561-d8ac-36a7-af2c-cf6c2c09d634",
             "name" : "On \"build\" : true",
             "type" : "PROCESSOR"
@@ -495,13 +495,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "c7d98d4c-9264-3855-a4d5-3058dbbd61fb",
             "name" : "Set index names",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "87c8141f-c268-3191-8caa-6e6726ab0fbf",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -512,7 +512,7 @@
           "selectedRelationships" : [ "dnc.index_part" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "9a00fb02-7cd5-3c89-bf98-2e93614f7636",
             "name" : "If index.part is used go to chaning it to index names",
             "type" : "PROCESSOR"
@@ -525,13 +525,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "7478b04d-8852-3c99-8e04-42400ada7447",
             "name" : "Dump Projects",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "6869c74c-dc95-3347-aa21-4f33e36acc9d",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -542,7 +542,7 @@
           "selectedRelationships" : [ "original" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "af2add96-c11b-347a-90e4-181152cd61f8",
             "name" : "Create Dump Folder",
             "type" : "PROCESSOR"
@@ -555,13 +555,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "97d2ddbd-23e0-39a1-a98a-23817233794b",
             "name" : "Remove Dump Folder",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "0c7b0771-b8da-3ee3-a1ee-3d19b7cf09f7",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -572,7 +572,7 @@
           "selectedRelationships" : [ "original" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "ffc094a5-fd91-3075-9b9f-486f027730b1",
             "name" : "Pack Projects",
             "type" : "PROCESSOR"
@@ -585,13 +585,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "b692bf08-a599-3ec9-aac5-00b95ab6acb1",
             "name" : "StackOutputs",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "b4b6def9-dae3-3225-9299-e901c80f2405",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -602,7 +602,7 @@
           "selectedRelationships" : [ "output stream" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "6aa7ef08-a067-3b31-b783-3ef8e1f9eb50",
             "name" : "Push files: prepare",
             "type" : "PROCESSOR"
@@ -615,13 +615,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "9815951c-8b91-35ce-9079-9881b2550872",
             "name" : "Apply dump",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "e89bf0e9-a316-34e5-b012-d54c0f462343",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -632,7 +632,7 @@
           "selectedRelationships" : [ "original" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "0c1b1889-3c45-3a00-b4fa-c8f33a7bfbd8",
             "name" : "Unpack Projects",
             "type" : "PROCESSOR"
@@ -645,13 +645,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "fc06877c-5a15-357f-91d3-fce2e9ddc1b7",
             "name" : "Set tmp file name",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "dcf21717-f474-31c9-8c6b-8936e70cd94f",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -662,7 +662,7 @@
           "selectedRelationships" : [ "original" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "ac608779-51fd-3f69-a397-e69becda618a",
             "name" : "Create dump Folder",
             "type" : "PROCESSOR"
@@ -675,13 +675,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "9cc291be-33b6-3bce-b10c-e9b3f21d4d8d",
             "name" : "Pull",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "bd4eb2d8-9514-3a5e-a3a3-0c9556408305",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -692,7 +692,7 @@
           "selectedRelationships" : [ "build" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "b8d8a561-d8ac-36a7-af2c-cf6c2c09d634",
             "name" : "On \"build\" : true",
             "type" : "PROCESSOR"
@@ -705,13 +705,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "9a00fb02-7cd5-3c89-bf98-2e93614f7636",
             "name" : "If index.part is used go to chaning it to index names",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "541df3a8-68a5-39ee-b974-468bc9cbfa06",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -722,7 +722,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "e801ffa8-2768-30ac-b099-2bab084f0b4e",
             "name" : "Json file to attributes",
             "type" : "PROCESSOR"
@@ -735,13 +735,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "a69f416b-2855-3657-9f7c-6346ab7a3205",
             "name" : "Put document.list to local nifi's FS",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "8517baf6-124d-376a-acec-7399fa3c84c0",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -752,7 +752,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "53e7faf1-dc44-3bd9-b69c-4bcf0b1421a9",
             "name" : "Set filename to document.list",
             "type" : "PROCESSOR"
@@ -765,13 +765,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "4d5b1e31-a254-3b82-93b1-ddc5334f0b32",
             "name" : "StackOutputs",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "1950e714-c22f-3a4f-a812-b4fe7fa117a9",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -782,7 +782,7 @@
           "selectedRelationships" : [ "success", "failure" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "e801ffa8-2768-30ac-b099-2bab084f0b4e",
             "name" : "Json file to attributes",
             "type" : "PROCESSOR"
@@ -795,13 +795,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "4beb008d-9290-3b4a-9b16-838e4d230c30",
             "name" : "Routes",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "57b02072-ec80-37d7-bc73-418e2ceb84e1",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -812,7 +812,7 @@
           "selectedRelationships" : [ "original" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "de9f50b5-ef29-3755-b481-f25bd2bcc612",
             "name" : "Build",
             "type" : "PROCESSOR"
@@ -825,43 +825,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
-            "id" : "4d5b1e31-a254-3b82-93b1-ddc5334f0b32",
-            "name" : "StackOutputs",
-            "type" : "PROCESSOR"
-          },
-          "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
-          "identifier" : "40c8d8c0-37ec-30fa-9dcd-65f0abff9fc9",
-          "labelIndex" : 1,
-          "loadBalanceCompression" : "DO_NOT_COMPRESS",
-          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-          "name" : "",
-          "partitioningAttribute" : "",
-          "prioritizers" : [ ],
-          "selectedRelationships" : [ "unmatched" ],
-          "source" : {
-            "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
-            "id" : "4beb008d-9290-3b4a-9b16-838e4d230c30",
-            "name" : "Routes",
-            "type" : "PROCESSOR"
-          },
-          "zIndex" : 0
-        }, {
-          "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
-          "bends" : [ ],
-          "componentType" : "CONNECTION",
-          "destination" : {
-            "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "b8d8a561-d8ac-36a7-af2c-cf6c2c09d634",
             "name" : "On \"build\" : true",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "5eaa5ba3-b3a8-3c1d-afe2-0a7b6412192c",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -872,7 +842,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "c7d98d4c-9264-3855-a4d5-3058dbbd61fb",
             "name" : "Set index names",
             "type" : "PROCESSOR"
@@ -885,13 +855,43 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
+            "id" : "4d5b1e31-a254-3b82-93b1-ddc5334f0b32",
+            "name" : "StackOutputs",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
+          "identifier" : "40c8d8c0-37ec-30fa-9dcd-65f0abff9fc9",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "unmatched" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
+            "id" : "4beb008d-9290-3b4a-9b16-838e4d230c30",
+            "name" : "Routes",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "c704c5b1-77cd-3030-be06-0197c72c847f",
             "name" : "return status:processing",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "13d65ffe-639a-3052-8fa2-eaea2ed4c10f",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -902,7 +902,7 @@
           "selectedRelationships" : [ "unmatched" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "9a0a7f24-c7ab-38ee-96ef-bc02ded8c780",
             "name" : "Routes",
             "type" : "PROCESSOR"
@@ -915,13 +915,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "424ca96d-5e1a-3c1a-8c4e-309cbaf999f2",
             "name" : "Return git status",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "0bc77fe7-a708-3c84-b6c1-75384463f5eb",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -932,7 +932,7 @@
           "selectedRelationships" : [ "git-status" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "9a0a7f24-c7ab-38ee-96ef-bc02ded8c780",
             "name" : "Routes",
             "type" : "PROCESSOR"
@@ -945,43 +945,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
-            "id" : "c4fc0908-83e0-3c12-8c34-d4b6ca4eb042",
-            "name" : "Set resulting file",
-            "type" : "PROCESSOR"
-          },
-          "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
-          "identifier" : "e3ec1498-bf76-36a6-b6d1-5461d294b9d0",
-          "labelIndex" : 1,
-          "loadBalanceCompression" : "DO_NOT_COMPRESS",
-          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-          "name" : "",
-          "partitioningAttribute" : "",
-          "prioritizers" : [ ],
-          "selectedRelationships" : [ "dump" ],
-          "source" : {
-            "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
-            "id" : "4beb008d-9290-3b4a-9b16-838e4d230c30",
-            "name" : "Routes",
-            "type" : "PROCESSOR"
-          },
-          "zIndex" : 0
-        }, {
-          "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
-          "bends" : [ ],
-          "componentType" : "CONNECTION",
-          "destination" : {
-            "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "53e7faf1-dc44-3bd9-b69c-4bcf0b1421a9",
             "name" : "Set filename to document.list",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "fde032e1-5766-3642-94c1-26cbdb633dee",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -992,7 +962,7 @@
           "selectedRelationships" : [ "push-files-with-list" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "4beb008d-9290-3b4a-9b16-838e4d230c30",
             "name" : "Routes",
             "type" : "PROCESSOR"
@@ -1005,13 +975,43 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
+            "id" : "c4fc0908-83e0-3c12-8c34-d4b6ca4eb042",
+            "name" : "Set resulting file",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
+          "identifier" : "e3ec1498-bf76-36a6-b6d1-5461d294b9d0",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "dump" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
+            "id" : "4beb008d-9290-3b4a-9b16-838e4d230c30",
+            "name" : "Routes",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "874c3837-756d-33ce-9547-93f28bf63c0f",
             "name" : "Set tmp folder",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "101d6029-bc21-3ce9-87a2-60b5ceef493a",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -1022,7 +1022,7 @@
           "selectedRelationships" : [ "applyDump" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "4beb008d-9290-3b4a-9b16-838e4d230c30",
             "name" : "Routes",
             "type" : "PROCESSOR"
@@ -1035,13 +1035,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "3bf8534c-e60d-3fa3-a8a7-5cd66f65d69d",
             "name" : "Push files",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "093c4419-558e-3727-9b3e-f1d93dcc6348",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -1052,7 +1052,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "a69f416b-2855-3657-9f7c-6346ab7a3205",
             "name" : "Put document.list to local nifi's FS",
             "type" : "PROCESSOR"
@@ -1065,13 +1065,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "4d5b1e31-a254-3b82-93b1-ddc5334f0b32",
             "name" : "StackOutputs",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "f38fd44c-25c4-31cc-8b72-1e1b4a81c038",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -1082,7 +1082,7 @@
           "selectedRelationships" : [ "output stream" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "de9f50b5-ef29-3755-b481-f25bd2bcc612",
             "name" : "Build",
             "type" : "PROCESSOR"
@@ -1095,13 +1095,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "0c1b1889-3c45-3a00-b4fa-c8f33a7bfbd8",
             "name" : "Unpack Projects",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "4edde7dd-8051-324c-9cee-e0c1722944fa",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -1112,7 +1112,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "abfa6a00-cddc-3cf8-870b-99f399dd870a",
             "name" : "PutFile",
             "type" : "PROCESSOR"
@@ -1125,13 +1125,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "f93353c9-0fed-3563-b2ce-b70971f8100f",
             "name" : "HandleHttpResponse",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "a9b4ddf9-f823-3b5b-8e7d-af8d95cc206f",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -1142,7 +1142,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "c704c5b1-77cd-3030-be06-0197c72c847f",
             "name" : "return status:processing",
             "type" : "PROCESSOR"
@@ -1155,13 +1155,43 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
+            "id" : "9a2f8e4a-f18d-3b3d-8113-2687863cbca7",
+            "name" : "LogMessage",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
+          "identifier" : "e4256172-c59e-38fb-9880-0b52424d740d",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "output stream", "nonzero status" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
+            "id" : "9815951c-8b91-35ce-9079-9881b2550872",
+            "name" : "Apply dump",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "d9981e10-f55d-3bc8-954b-4990bda72dc3",
             "name" : "HandleHttpResponse",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "88a76d5a-919d-37a1-9199-940127bdfa1c",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -1172,7 +1202,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "d97fca2b-0567-3ab9-822b-baec42e6fb2c",
             "name" : "FetchFile",
             "type" : "PROCESSOR"
@@ -1185,26 +1215,26 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
-            "id" : "9a2f8e4a-f18d-3b3d-8113-2687863cbca7",
-            "name" : "LogMessage",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
+            "id" : "e801ffa8-2768-30ac-b099-2bab084f0b4e",
+            "name" : "Json file to attributes",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
-          "identifier" : "e4256172-c59e-38fb-9880-0b52424d740d",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
+          "identifier" : "fc2ad7f4-1ed7-310a-be72-39093d6e3925",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
           "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
           "name" : "",
           "partitioningAttribute" : "",
           "prioritizers" : [ ],
-          "selectedRelationships" : [ "output stream", "nonzero status" ],
+          "selectedRelationships" : [ "dump", "unmatched" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
-            "id" : "9815951c-8b91-35ce-9079-9881b2550872",
-            "name" : "Apply dump",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
+            "id" : "9a0a7f24-c7ab-38ee-96ef-bc02ded8c780",
+            "name" : "Routes",
             "type" : "PROCESSOR"
           },
           "zIndex" : 0
@@ -1215,13 +1245,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "de9f50b5-ef29-3755-b481-f25bd2bcc612",
             "name" : "Build",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "3bcb165d-0bed-328f-ab52-c1b44dd26fbb",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -1232,7 +1262,7 @@
           "selectedRelationships" : [ "original" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "9cc291be-33b6-3bce-b10c-e9b3f21d4d8d",
             "name" : "Pull",
             "type" : "PROCESSOR"
@@ -1245,43 +1275,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
-            "id" : "e801ffa8-2768-30ac-b099-2bab084f0b4e",
-            "name" : "Json file to attributes",
-            "type" : "PROCESSOR"
-          },
-          "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
-          "identifier" : "fc2ad7f4-1ed7-310a-be72-39093d6e3925",
-          "labelIndex" : 1,
-          "loadBalanceCompression" : "DO_NOT_COMPRESS",
-          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-          "name" : "",
-          "partitioningAttribute" : "",
-          "prioritizers" : [ ],
-          "selectedRelationships" : [ "dump", "unmatched" ],
-          "source" : {
-            "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
-            "id" : "9a0a7f24-c7ab-38ee-96ef-bc02ded8c780",
-            "name" : "Routes",
-            "type" : "PROCESSOR"
-          },
-          "zIndex" : 0
-        }, {
-          "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
-          "bends" : [ ],
-          "componentType" : "CONNECTION",
-          "destination" : {
-            "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "3700e659-8321-38b6-ad78-027c46a53e43",
             "name" : "Not found Response",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "4646bc6d-2f63-3730-a322-6441538bcf55",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -1292,7 +1292,7 @@
           "selectedRelationships" : [ "not.found" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "d97fca2b-0567-3ab9-822b-baec42e6fb2c",
             "name" : "FetchFile",
             "type" : "PROCESSOR"
@@ -1305,13 +1305,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "af2add96-c11b-347a-90e4-181152cd61f8",
             "name" : "Create Dump Folder",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "2b19da5b-7ee1-3302-85e9-3495d41dd10c",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -1322,7 +1322,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "c4fc0908-83e0-3c12-8c34-d4b6ca4eb042",
             "name" : "Set resulting file",
             "type" : "PROCESSOR"
@@ -1335,43 +1335,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
-            "id" : "d797ebec-cee5-3150-b497-d965ac1574b8",
-            "name" : "HandleHttpResponse",
-            "type" : "PROCESSOR"
-          },
-          "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
-          "identifier" : "55c3339d-d30c-326b-8358-dd2531f5a9a9",
-          "labelIndex" : 1,
-          "loadBalanceCompression" : "DO_NOT_COMPRESS",
-          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-          "name" : "",
-          "partitioningAttribute" : "",
-          "prioritizers" : [ ],
-          "selectedRelationships" : [ "success" ],
-          "source" : {
-            "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
-            "id" : "f457b95d-6b09-3e8a-bbc4-3b3f48f9a797",
-            "name" : "return status:processing",
-            "type" : "PROCESSOR"
-          },
-          "zIndex" : 0
-        }, {
-          "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
-          "bends" : [ ],
-          "componentType" : "CONNECTION",
-          "destination" : {
-            "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "9a2f8e4a-f18d-3b3d-8113-2687863cbca7",
             "name" : "LogMessage",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "f334d9df-2e12-3dd7-96e5-4b395af00861",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -1382,9 +1352,39 @@
           "selectedRelationships" : [ "original" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "0c1b1889-3c45-3a00-b4fa-c8f33a7bfbd8",
             "name" : "Unpack Projects",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
+            "id" : "d797ebec-cee5-3150-b497-d965ac1574b8",
+            "name" : "HandleHttpResponse",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
+          "identifier" : "55c3339d-d30c-326b-8358-dd2531f5a9a9",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "success" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
+            "id" : "f457b95d-6b09-3e8a-bbc4-3b3f48f9a797",
+            "name" : "return status:processing",
             "type" : "PROCESSOR"
           },
           "zIndex" : 0
@@ -1398,13 +1398,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "d97fca2b-0567-3ab9-822b-baec42e6fb2c",
             "name" : "FetchFile",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "48f823eb-7e26-389d-8c26-df44e688087c",
           "labelIndex" : 0,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -1415,7 +1415,7 @@
           "selectedRelationships" : [ "get-file" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "4beb008d-9290-3b4a-9b16-838e4d230c30",
             "name" : "Routes",
             "type" : "PROCESSOR"
@@ -1428,13 +1428,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "b692bf08-a599-3ec9-aac5-00b95ab6acb1",
             "name" : "StackOutputs",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "1168bdd0-d815-3f42-8dbd-e43af5a6ec19",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -1445,7 +1445,7 @@
           "selectedRelationships" : [ "output stream" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "3bf8534c-e60d-3fa3-a8a7-5cd66f65d69d",
             "name" : "Push files",
             "type" : "PROCESSOR"
@@ -1458,13 +1458,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "9a0a7f24-c7ab-38ee-96ef-bc02ded8c780",
             "name" : "Routes",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "bdbb8240-8a64-3264-b669-00c7dbc374fe",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -1475,7 +1475,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "dc8585b6-3e05-31e3-a3b2-cad478a4a306",
             "name" : "HandleHttpRequest",
             "type" : "PROCESSOR"
@@ -1488,13 +1488,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "26e64df6-46bc-3520-bee0-67a109164e0a",
             "name" : "Create Projects",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "95b2e175-bc03-3d9c-89a3-e6db707ac486",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -1505,7 +1505,7 @@
           "selectedRelationships" : [ "pushFiles" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "4beb008d-9290-3b4a-9b16-838e4d230c30",
             "name" : "Routes",
             "type" : "PROCESSOR"
@@ -1518,13 +1518,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "b8d8a561-d8ac-36a7-af2c-cf6c2c09d634",
             "name" : "On \"build\" : true",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "fbb2ddf9-ea85-38cc-a2d1-7aba74127498",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -1535,7 +1535,7 @@
           "selectedRelationships" : [ "unmatched" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "9a00fb02-7cd5-3c89-bf98-2e93614f7636",
             "name" : "If index.part is used go to chaning it to index names",
             "type" : "PROCESSOR"
@@ -1548,13 +1548,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "d1d6160a-60a0-3dfb-81d5-d0922b150654",
             "name" : "Notify in Teams",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "250bf099-8bf6-3bf0-8a60-f8bf19277da5",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -1565,7 +1565,7 @@
           "selectedRelationships" : [ "success", "failure" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "d797ebec-cee5-3150-b497-d965ac1574b8",
             "name" : "HandleHttpResponse",
             "type" : "PROCESSOR"
@@ -1578,13 +1578,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "976ad8c9-7724-3932-a39d-d0eb517e14c8",
             "name" : "StackOutputs",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "d95e540f-b029-3380-bee1-80cc50170f65",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -1595,7 +1595,7 @@
           "selectedRelationships" : [ "output stream" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "7478b04d-8852-3c99-8e04-42400ada7447",
             "name" : "Dump Projects",
             "type" : "PROCESSOR"
@@ -1608,13 +1608,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "c8dba8cb-00a7-3cc9-a458-43b25783553b",
             "name" : "Notify in Teams",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "3fef8cd6-fa5f-3c86-a512-c90cecc79045",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -1625,7 +1625,7 @@
           "selectedRelationships" : [ "original" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "9815951c-8b91-35ce-9079-9881b2550872",
             "name" : "Apply dump",
             "type" : "PROCESSOR"
@@ -1638,13 +1638,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "f93353c9-0fed-3563-b2ce-b70971f8100f",
             "name" : "HandleHttpResponse",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "af720611-eb0f-3a69-a5a7-9149244d9e3a",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -1655,7 +1655,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "424ca96d-5e1a-3c1a-8c4e-309cbaf999f2",
             "name" : "Return git status",
             "type" : "PROCESSOR"
@@ -1668,13 +1668,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "6aa7ef08-a067-3b31-b783-3ef8e1f9eb50",
             "name" : "Push files: prepare",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "0081b736-67b4-3ef3-ac6c-9ef50864c5a7",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -1685,7 +1685,7 @@
           "selectedRelationships" : [ "original" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "26e64df6-46bc-3520-bee0-67a109164e0a",
             "name" : "Create Projects",
             "type" : "PROCESSOR"
@@ -1698,13 +1698,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "f457b95d-6b09-3e8a-bbc4-3b3f48f9a797",
             "name" : "return status:processing",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "81c81ef4-bfdf-3dbd-a0b7-b802766ab955",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -1715,7 +1715,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "c4fc0908-83e0-3c12-8c34-d4b6ca4eb042",
             "name" : "Set resulting file",
             "type" : "PROCESSOR"
@@ -1728,13 +1728,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "9a00fb02-7cd5-3c89-bf98-2e93614f7636",
             "name" : "If index.part is used go to chaning it to index names",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "30b9fb87-1915-32ec-a8c4-df38d5ae3565",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -1745,7 +1745,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+            "groupId" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
             "id" : "d5ab412e-a0bd-35e4-981b-33272812aa1f",
             "name" : "Query params to attributes ",
             "type" : "PROCESSOR"
@@ -1768,7 +1768,7 @@
             },
             "type" : "org.apache.nifi.http.HttpContextMap"
           } ],
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "136d584a-67ed-38c1-82b0-87743af1ad44",
           "name" : "StandardHttpContextMap",
           "properties" : {
@@ -1792,11 +1792,11 @@
           "type" : "org.apache.nifi.http.StandardHttpContextMap"
         } ],
         "funnels" : [ ],
-        "identifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+        "identifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
         "inputPorts" : [ ],
         "labels" : [ {
           "componentType" : "LABEL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "height" : 840.0,
           "identifier" : "771db3f2-2739-365a-813c-754642603f07",
           "label" : "Use case 1: ingest decomposed data into Polarion",
@@ -1810,7 +1810,7 @@
           "width" : 904.0
         }, {
           "componentType" : "LABEL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "height" : 920.0,
           "identifier" : "90157509-a9bb-3c67-b10c-049bae367b52",
           "label" : "Use case 2: create deliverable data dumps",
@@ -1827,8 +1827,8 @@
         "outputPorts" : [ ],
         "parameterContextName" : "Push to Polarion: develoment",
         "position" : {
-          "x" : 328.0,
-          "y" : 48.0
+          "x" : 432.0,
+          "y" : -8.0
         },
         "processGroups" : [ ],
         "processors" : [ {
@@ -1843,7 +1843,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "02812cb1-43b8-3768-8e30-f2b3d788572d",
           "name" : "Notify in Teams",
           "penaltyDuration" : "30 sec",
@@ -1928,7 +1928,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "c4fc0908-83e0-3c12-8c34-d4b6ca4eb042",
           "name" : "Set resulting file",
           "penaltyDuration" : "30 sec",
@@ -1999,7 +1999,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "9815951c-8b91-35ce-9079-9881b2550872",
           "name" : "Apply dump",
           "penaltyDuration" : "30 sec",
@@ -2085,7 +2085,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "d97fca2b-0567-3ab9-822b-baec42e6fb2c",
           "name" : "FetchFile",
           "penaltyDuration" : "30 sec",
@@ -2157,7 +2157,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "0c1b1889-3c45-3a00-b4fa-c8f33a7bfbd8",
           "name" : "Unpack Projects",
           "penaltyDuration" : "30 sec",
@@ -2242,7 +2242,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "9cc291be-33b6-3bce-b10c-e9b3f21d4d8d",
           "name" : "Pull",
           "penaltyDuration" : "30 sec",
@@ -2328,13 +2328,13 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "976ad8c9-7724-3932-a39d-d0eb517e14c8",
           "name" : "StackOutputs",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 2184.0,
-            "y" : 1088.0
+            "x" : 2760.0,
+            "y" : 1176.0
           },
           "properties" : {
             "log-level" : "info"
@@ -2378,7 +2378,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "de9f50b5-ef29-3755-b481-f25bd2bcc612",
           "name" : "Build",
           "penaltyDuration" : "30 sec",
@@ -2463,7 +2463,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "af2add96-c11b-347a-90e4-181152cd61f8",
           "name" : "Create Dump Folder",
           "penaltyDuration" : "30 sec",
@@ -2548,7 +2548,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "874c3837-756d-33ce-9547-93f28bf63c0f",
           "name" : "Set tmp folder",
           "penaltyDuration" : "30 sec",
@@ -2612,7 +2612,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "abfa6a00-cddc-3cf8-870b-99f399dd870a",
           "name" : "PutFile",
           "penaltyDuration" : "30 sec",
@@ -2683,91 +2683,6 @@
           "type" : "org.apache.nifi.processors.standard.PutFile",
           "yieldDuration" : "1 sec"
         }, {
-          "autoTerminatedRelationships" : [ "output stream", "original", "nonzero status" ],
-          "bulletinLevel" : "WARN",
-          "bundle" : {
-            "artifact" : "nifi-standard-nar",
-            "group" : "org.apache.nifi",
-            "version" : "1.11.4"
-          },
-          "comments" : "",
-          "componentType" : "PROCESSOR",
-          "concurrentlySchedulableTaskCount" : 1,
-          "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
-          "identifier" : "3e4ff281-0b6f-3bc5-9829-336d3e752a84",
-          "name" : "Notify in Teams",
-          "penaltyDuration" : "30 sec",
-          "position" : {
-            "x" : 2744.0,
-            "y" : 456.0
-          },
-          "properties" : {
-            "argumentsStrategy" : "Command Arguments Property",
-            "Max Attribute Length" : "256",
-            "Command Path" : "#{dnc.source}/notify.sh",
-            "Argument Delimiter" : " ",
-            "Ignore STDIN" : "true",
-            "Command Arguments" : "The release REV_${dnc.revision} has been delivered!"
-          },
-          "propertyDescriptors" : {
-            "argumentsStrategy" : {
-              "displayName" : "Command Arguments Strategy",
-              "identifiesControllerService" : false,
-              "name" : "argumentsStrategy",
-              "sensitive" : false
-            },
-            "Max Attribute Length" : {
-              "displayName" : "Max Attribute Length",
-              "identifiesControllerService" : false,
-              "name" : "Max Attribute Length",
-              "sensitive" : false
-            },
-            "Command Path" : {
-              "displayName" : "Command Path",
-              "identifiesControllerService" : false,
-              "name" : "Command Path",
-              "sensitive" : false
-            },
-            "Working Directory" : {
-              "displayName" : "Working Directory",
-              "identifiesControllerService" : false,
-              "name" : "Working Directory",
-              "sensitive" : false
-            },
-            "Output Destination Attribute" : {
-              "displayName" : "Output Destination Attribute",
-              "identifiesControllerService" : false,
-              "name" : "Output Destination Attribute",
-              "sensitive" : false
-            },
-            "Argument Delimiter" : {
-              "displayName" : "Argument Delimiter",
-              "identifiesControllerService" : false,
-              "name" : "Argument Delimiter",
-              "sensitive" : false
-            },
-            "Ignore STDIN" : {
-              "displayName" : "Ignore STDIN",
-              "identifiesControllerService" : false,
-              "name" : "Ignore STDIN",
-              "sensitive" : false
-            },
-            "Command Arguments" : {
-              "displayName" : "Command Arguments",
-              "identifiesControllerService" : false,
-              "name" : "Command Arguments",
-              "sensitive" : false
-            }
-          },
-          "runDurationMillis" : 0,
-          "scheduledState" : "ENABLED",
-          "schedulingPeriod" : "0 sec",
-          "schedulingStrategy" : "TIMER_DRIVEN",
-          "style" : { },
-          "type" : "org.apache.nifi.processors.standard.ExecuteStreamCommand",
-          "yieldDuration" : "1 sec"
-        }, {
           "autoTerminatedRelationships" : [ ],
           "bulletinLevel" : "WARN",
           "bundle" : {
@@ -2779,7 +2694,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "dc8585b6-3e05-31e3-a3b2-cad478a4a306",
           "name" : "HandleHttpRequest",
           "penaltyDuration" : "30 sec",
@@ -2914,10 +2829,10 @@
           "type" : "org.apache.nifi.processors.standard.HandleHttpRequest",
           "yieldDuration" : "1 sec"
         }, {
-          "autoTerminatedRelationships" : [ "failure" ],
+          "autoTerminatedRelationships" : [ "output stream", "original", "nonzero status" ],
           "bulletinLevel" : "WARN",
           "bundle" : {
-            "artifact" : "nifi-groovyx-nar",
+            "artifact" : "nifi-standard-nar",
             "group" : "org.apache.nifi",
             "version" : "1.11.4"
           },
@@ -2925,50 +2840,78 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
-          "identifier" : "f457b95d-6b09-3e8a-bbc4-3b3f48f9a797",
-          "name" : "return status:processing",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
+          "identifier" : "3e4ff281-0b6f-3bc5-9829-336d3e752a84",
+          "name" : "Notify in Teams",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 1112.0,
-            "y" : 464.0
+            "x" : 2744.0,
+            "y" : 456.0
           },
           "properties" : {
-            "groovyx-script-body" : "import org.apache.commons.io.IOUtils\nimport java.nio.charset.*\ndef flowFile = session.get();\nif (flowFile == null) {\n    return;\n}\nflowFile = session.write(flowFile, { outputStream -> \n\toutputStream.write(('{\\n  \"status\" : \"prosessing\",\\n  \"filename\" : \"' + flowFile.getAttribute('resulting-filename') + '\"\\n}').getBytes(StandardCharsets.UTF_8))\n} as OutputStreamCallback)\n\nsession.transfer(flowFile, REL_SUCCESS)",
-            "groovyx-failure-strategy" : "rollback"
+            "argumentsStrategy" : "Command Arguments Property",
+            "Max Attribute Length" : "256",
+            "Command Path" : "#{dnc.source}/notify.sh",
+            "Argument Delimiter" : " ",
+            "Ignore STDIN" : "true",
+            "Command Arguments" : "The release REV_${dnc.revision} has been delivered!"
           },
           "propertyDescriptors" : {
-            "groovyx-script-body" : {
-              "displayName" : "Script Body",
+            "argumentsStrategy" : {
+              "displayName" : "Command Arguments Strategy",
               "identifiesControllerService" : false,
-              "name" : "groovyx-script-body",
+              "name" : "argumentsStrategy",
               "sensitive" : false
             },
-            "groovyx-failure-strategy" : {
-              "displayName" : "Failure strategy",
+            "Max Attribute Length" : {
+              "displayName" : "Max Attribute Length",
               "identifiesControllerService" : false,
-              "name" : "groovyx-failure-strategy",
+              "name" : "Max Attribute Length",
               "sensitive" : false
             },
-            "groovyx-additional-classpath" : {
-              "displayName" : "Additional classpath",
+            "Command Path" : {
+              "displayName" : "Command Path",
               "identifiesControllerService" : false,
-              "name" : "groovyx-additional-classpath",
+              "name" : "Command Path",
               "sensitive" : false
             },
-            "groovyx-script-file" : {
-              "displayName" : "Script File",
+            "Working Directory" : {
+              "displayName" : "Working Directory",
               "identifiesControllerService" : false,
-              "name" : "groovyx-script-file",
+              "name" : "Working Directory",
+              "sensitive" : false
+            },
+            "Output Destination Attribute" : {
+              "displayName" : "Output Destination Attribute",
+              "identifiesControllerService" : false,
+              "name" : "Output Destination Attribute",
+              "sensitive" : false
+            },
+            "Argument Delimiter" : {
+              "displayName" : "Argument Delimiter",
+              "identifiesControllerService" : false,
+              "name" : "Argument Delimiter",
+              "sensitive" : false
+            },
+            "Ignore STDIN" : {
+              "displayName" : "Ignore STDIN",
+              "identifiesControllerService" : false,
+              "name" : "Ignore STDIN",
+              "sensitive" : false
+            },
+            "Command Arguments" : {
+              "displayName" : "Command Arguments",
+              "identifiesControllerService" : false,
+              "name" : "Command Arguments",
               "sensitive" : false
             }
           },
           "runDurationMillis" : 0,
           "scheduledState" : "ENABLED",
-          "schedulingPeriod" : "10 sec",
+          "schedulingPeriod" : "0 sec",
           "schedulingStrategy" : "TIMER_DRIVEN",
           "style" : { },
-          "type" : "org.apache.nifi.processors.groovyx.ExecuteGroovyScript",
+          "type" : "org.apache.nifi.processors.standard.ExecuteStreamCommand",
           "yieldDuration" : "1 sec"
         }, {
           "autoTerminatedRelationships" : [ "failure" ],
@@ -2982,7 +2925,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "d5ab412e-a0bd-35e4-981b-33272812aa1f",
           "name" : "Query params to attributes ",
           "penaltyDuration" : "30 sec",
@@ -3028,6 +2971,63 @@
           "type" : "org.apache.nifi.processors.script.ExecuteScript",
           "yieldDuration" : "1 sec"
         }, {
+          "autoTerminatedRelationships" : [ "failure" ],
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-groovyx-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.11.4"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
+          "identifier" : "f457b95d-6b09-3e8a-bbc4-3b3f48f9a797",
+          "name" : "return status:processing",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 1112.0,
+            "y" : 464.0
+          },
+          "properties" : {
+            "groovyx-script-body" : "import org.apache.commons.io.IOUtils\nimport java.nio.charset.*\ndef flowFile = session.get();\nif (flowFile == null) {\n    return;\n}\nflowFile = session.write(flowFile, { outputStream -> \n\toutputStream.write(('{\\n  \"status\" : \"prosessing\",\\n  \"filename\" : \"' + flowFile.getAttribute('resulting-filename') + '\"\\n}').getBytes(StandardCharsets.UTF_8))\n} as OutputStreamCallback)\n\nsession.transfer(flowFile, REL_SUCCESS)",
+            "groovyx-failure-strategy" : "rollback"
+          },
+          "propertyDescriptors" : {
+            "groovyx-script-body" : {
+              "displayName" : "Script Body",
+              "identifiesControllerService" : false,
+              "name" : "groovyx-script-body",
+              "sensitive" : false
+            },
+            "groovyx-failure-strategy" : {
+              "displayName" : "Failure strategy",
+              "identifiesControllerService" : false,
+              "name" : "groovyx-failure-strategy",
+              "sensitive" : false
+            },
+            "groovyx-additional-classpath" : {
+              "displayName" : "Additional classpath",
+              "identifiesControllerService" : false,
+              "name" : "groovyx-additional-classpath",
+              "sensitive" : false
+            },
+            "groovyx-script-file" : {
+              "displayName" : "Script File",
+              "identifiesControllerService" : false,
+              "name" : "groovyx-script-file",
+              "sensitive" : false
+            }
+          },
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "10 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.groovyx.ExecuteGroovyScript",
+          "yieldDuration" : "1 sec"
+        }, {
           "autoTerminatedRelationships" : [ "success", "failure" ],
           "bulletinLevel" : "WARN",
           "bundle" : {
@@ -3039,7 +3039,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "3700e659-8321-38b6-ad78-027c46a53e43",
           "name" : "Not found Response",
           "penaltyDuration" : "30 sec",
@@ -3084,7 +3084,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "53e7faf1-dc44-3bd9-b69c-4bcf0b1421a9",
           "name" : "Set filename to document.list",
           "penaltyDuration" : "30 sec",
@@ -3148,7 +3148,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "a69f416b-2855-3657-9f7c-6346ab7a3205",
           "name" : "Put document.list to local nifi's FS",
           "penaltyDuration" : "30 sec",
@@ -3230,7 +3230,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "d1d6160a-60a0-3dfb-81d5-d0922b150654",
           "name" : "Notify in Teams",
           "penaltyDuration" : "30 sec",
@@ -3315,7 +3315,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "ffc094a5-fd91-3075-9b9f-486f027730b1",
           "name" : "Pack Projects",
           "penaltyDuration" : "30 sec",
@@ -3401,7 +3401,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "b8d8a561-d8ac-36a7-af2c-cf6c2c09d634",
           "name" : "On \"build\" : true",
           "penaltyDuration" : "30 sec",
@@ -3446,7 +3446,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "389ab117-ca8c-3fef-9cce-e213f6394f88",
           "name" : "RemoveDir",
           "penaltyDuration" : "30 sec",
@@ -3531,7 +3531,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "4beb008d-9290-3b4a-9b16-838e4d230c30",
           "name" : "Routes",
           "penaltyDuration" : "30 sec",
@@ -3604,7 +3604,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "97d2ddbd-23e0-39a1-a98a-23817233794b",
           "name" : "Remove Dump Folder",
           "penaltyDuration" : "30 sec",
@@ -3689,7 +3689,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "e797b7e5-00d1-34ed-ac6f-3bf0989592c5",
           "name" : "Remove .svn",
           "penaltyDuration" : "30 sec",
@@ -3764,6 +3764,51 @@
           "type" : "org.apache.nifi.processors.standard.ExecuteStreamCommand",
           "yieldDuration" : "1 sec"
         }, {
+          "autoTerminatedRelationships" : [ "success", "failure" ],
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.11.4"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
+          "identifier" : "f93353c9-0fed-3563-b2ce-b70971f8100f",
+          "name" : "HandleHttpResponse",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 240.0,
+            "y" : -464.0
+          },
+          "properties" : {
+            "HTTP Context Map" : "136d584a-67ed-38c1-82b0-87743af1ad44",
+            "HTTP Status Code" : "200"
+          },
+          "propertyDescriptors" : {
+            "HTTP Context Map" : {
+              "displayName" : "HTTP Context Map",
+              "identifiesControllerService" : true,
+              "name" : "HTTP Context Map",
+              "sensitive" : false
+            },
+            "HTTP Status Code" : {
+              "displayName" : "HTTP Status Code",
+              "identifiesControllerService" : false,
+              "name" : "HTTP Status Code",
+              "sensitive" : false
+            }
+          },
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.HandleHttpResponse",
+          "yieldDuration" : "1 sec"
+        }, {
           "autoTerminatedRelationships" : [ "nonzero status" ],
           "bulletinLevel" : "WARN",
           "bundle" : {
@@ -3775,7 +3820,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "6aa7ef08-a067-3b31-b783-3ef8e1f9eb50",
           "name" : "Push files: prepare",
           "penaltyDuration" : "30 sec",
@@ -3850,51 +3895,6 @@
           "type" : "org.apache.nifi.processors.standard.ExecuteStreamCommand",
           "yieldDuration" : "1 sec"
         }, {
-          "autoTerminatedRelationships" : [ "success", "failure" ],
-          "bulletinLevel" : "WARN",
-          "bundle" : {
-            "artifact" : "nifi-standard-nar",
-            "group" : "org.apache.nifi",
-            "version" : "1.11.4"
-          },
-          "comments" : "",
-          "componentType" : "PROCESSOR",
-          "concurrentlySchedulableTaskCount" : 1,
-          "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
-          "identifier" : "f93353c9-0fed-3563-b2ce-b70971f8100f",
-          "name" : "HandleHttpResponse",
-          "penaltyDuration" : "30 sec",
-          "position" : {
-            "x" : 240.0,
-            "y" : -464.0
-          },
-          "properties" : {
-            "HTTP Context Map" : "136d584a-67ed-38c1-82b0-87743af1ad44",
-            "HTTP Status Code" : "200"
-          },
-          "propertyDescriptors" : {
-            "HTTP Context Map" : {
-              "displayName" : "HTTP Context Map",
-              "identifiesControllerService" : true,
-              "name" : "HTTP Context Map",
-              "sensitive" : false
-            },
-            "HTTP Status Code" : {
-              "displayName" : "HTTP Status Code",
-              "identifiesControllerService" : false,
-              "name" : "HTTP Status Code",
-              "sensitive" : false
-            }
-          },
-          "runDurationMillis" : 0,
-          "scheduledState" : "ENABLED",
-          "schedulingPeriod" : "0 sec",
-          "schedulingStrategy" : "TIMER_DRIVEN",
-          "style" : { },
-          "type" : "org.apache.nifi.processors.standard.HandleHttpResponse",
-          "yieldDuration" : "1 sec"
-        }, {
           "autoTerminatedRelationships" : [ ],
           "bulletinLevel" : "WARN",
           "bundle" : {
@@ -3906,7 +3906,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "c7d98d4c-9264-3855-a4d5-3058dbbd61fb",
           "name" : "Set index names",
           "penaltyDuration" : "30 sec",
@@ -3977,7 +3977,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "ac608779-51fd-3f69-a397-e69becda618a",
           "name" : "Create dump Folder",
           "penaltyDuration" : "30 sec",
@@ -4062,7 +4062,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "c8a88866-c861-3652-97f7-0c534158eb2c",
           "name" : "return error: invalid json",
           "penaltyDuration" : "30 sec",
@@ -4119,7 +4119,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "4d5b1e31-a254-3b82-93b1-ddc5334f0b32",
           "name" : "StackOutputs",
           "penaltyDuration" : "30 sec",
@@ -4158,63 +4158,6 @@
           "type" : "org.apache.nifi.processors.standard.LogMessage",
           "yieldDuration" : "1 sec"
         }, {
-          "autoTerminatedRelationships" : [ "failure" ],
-          "bulletinLevel" : "WARN",
-          "bundle" : {
-            "artifact" : "nifi-scripting-nar",
-            "group" : "org.apache.nifi",
-            "version" : "1.11.4"
-          },
-          "comments" : "",
-          "componentType" : "PROCESSOR",
-          "concurrentlySchedulableTaskCount" : 1,
-          "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
-          "identifier" : "424ca96d-5e1a-3c1a-8c4e-309cbaf999f2",
-          "name" : "Return git status",
-          "penaltyDuration" : "30 sec",
-          "position" : {
-            "x" : -160.0,
-            "y" : -656.0
-          },
-          "properties" : {
-            "Script Engine" : "python",
-            "Script Body" : "import json\nimport java.io\nimport subprocess\nfrom org.apache.commons.io import IOUtils\nfrom java.nio.charset import StandardCharsets\nfrom org.apache.nifi.processor.io import StreamCallback\n\nclass ModJSON(StreamCallback):\n  def __init__(self):\n        pass\n  def process(self, inputStream, outputStream):\n    out = subprocess.Popen(['git', 'log', '-1', '--all', '--source'], stdout=subprocess.PIPE, stderr=subprocess.STDOUT, cwd=r'/environment/DnC_Push-to-polarion/dites/')\n    stdout,stderr = out.communicate()\n    report = \"dites:\\n{}\".format(stdout)\n    \n    out = subprocess.Popen(['git', 'log', '-1', '--all', '--source'], stdout=subprocess.PIPE, stderr=subprocess.STDOUT, cwd=r'/environment/DnC_Push-to-polarion/polarion-connector/')\n    stdout,stderr = out.communicate()\n    report += \"\\npolarion-connector:\\n{}\".format(stdout)\n    \n    outputStream.write(bytearray(report.encode('utf-8')))\n\nflowFile = session.get()\nif (flowFile != None):\n  flowFile = session.write(flowFile, ModJSON())\n  flowFile = session.putAttribute(flowFile, \"filename\", flowFile.getAttribute('filename').split('.')[0]+'_translated.json')\nsession.transfer(flowFile, REL_SUCCESS)\nsession.commit()"
-          },
-          "propertyDescriptors" : {
-            "Script File" : {
-              "displayName" : "Script File",
-              "identifiesControllerService" : false,
-              "name" : "Script File",
-              "sensitive" : false
-            },
-            "Script Engine" : {
-              "displayName" : "Script Engine",
-              "identifiesControllerService" : false,
-              "name" : "Script Engine",
-              "sensitive" : false
-            },
-            "Script Body" : {
-              "displayName" : "Script Body",
-              "identifiesControllerService" : false,
-              "name" : "Script Body",
-              "sensitive" : false
-            },
-            "Module Directory" : {
-              "displayName" : "Module Directory",
-              "identifiesControllerService" : false,
-              "name" : "Module Directory",
-              "sensitive" : false
-            }
-          },
-          "runDurationMillis" : 0,
-          "scheduledState" : "ENABLED",
-          "schedulingPeriod" : "0 sec",
-          "schedulingStrategy" : "TIMER_DRIVEN",
-          "style" : { },
-          "type" : "org.apache.nifi.processors.script.ExecuteScript",
-          "yieldDuration" : "1 sec"
-        }, {
           "autoTerminatedRelationships" : [ "output stream", "original", "nonzero status" ],
           "bulletinLevel" : "WARN",
           "bundle" : {
@@ -4226,7 +4169,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "c8dba8cb-00a7-3cc9-a458-43b25783553b",
           "name" : "Notify in Teams",
           "penaltyDuration" : "30 sec",
@@ -4300,6 +4243,63 @@
           "type" : "org.apache.nifi.processors.standard.ExecuteStreamCommand",
           "yieldDuration" : "1 sec"
         }, {
+          "autoTerminatedRelationships" : [ "failure" ],
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-scripting-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.11.4"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
+          "identifier" : "424ca96d-5e1a-3c1a-8c4e-309cbaf999f2",
+          "name" : "Return git status",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : -160.0,
+            "y" : -656.0
+          },
+          "properties" : {
+            "Script Engine" : "python",
+            "Script Body" : "import json\nimport java.io\nimport subprocess\nfrom org.apache.commons.io import IOUtils\nfrom java.nio.charset import StandardCharsets\nfrom org.apache.nifi.processor.io import StreamCallback\n\nclass ModJSON(StreamCallback):\n  def __init__(self):\n        pass\n  def process(self, inputStream, outputStream):\n    out = subprocess.Popen(['git', 'log', '-1', '--all', '--source'], stdout=subprocess.PIPE, stderr=subprocess.STDOUT, cwd=r'/environment/DnC_Push-to-polarion/dites/')\n    stdout,stderr = out.communicate()\n    report = \"dites:\\n{}\".format(stdout)\n    \n    out = subprocess.Popen(['git', 'log', '-1', '--all', '--source'], stdout=subprocess.PIPE, stderr=subprocess.STDOUT, cwd=r'/environment/DnC_Push-to-polarion/polarion-connector/')\n    stdout,stderr = out.communicate()\n    report += \"\\npolarion-connector:\\n{}\".format(stdout)\n    \n    outputStream.write(bytearray(report.encode('utf-8')))\n\nflowFile = session.get()\nif (flowFile != None):\n  flowFile = session.write(flowFile, ModJSON())\n  flowFile = session.putAttribute(flowFile, \"filename\", flowFile.getAttribute('filename').split('.')[0]+'_translated.json')\nsession.transfer(flowFile, REL_SUCCESS)\nsession.commit()"
+          },
+          "propertyDescriptors" : {
+            "Script File" : {
+              "displayName" : "Script File",
+              "identifiesControllerService" : false,
+              "name" : "Script File",
+              "sensitive" : false
+            },
+            "Script Engine" : {
+              "displayName" : "Script Engine",
+              "identifiesControllerService" : false,
+              "name" : "Script Engine",
+              "sensitive" : false
+            },
+            "Script Body" : {
+              "displayName" : "Script Body",
+              "identifiesControllerService" : false,
+              "name" : "Script Body",
+              "sensitive" : false
+            },
+            "Module Directory" : {
+              "displayName" : "Module Directory",
+              "identifiesControllerService" : false,
+              "name" : "Module Directory",
+              "sensitive" : false
+            }
+          },
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.script.ExecuteScript",
+          "yieldDuration" : "1 sec"
+        }, {
           "autoTerminatedRelationships" : [ "nonzero status" ],
           "bulletinLevel" : "WARN",
           "bundle" : {
@@ -4311,7 +4311,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "7478b04d-8852-3c99-8e04-42400ada7447",
           "name" : "Dump Projects",
           "penaltyDuration" : "30 sec",
@@ -4397,7 +4397,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "9a2f8e4a-f18d-3b3d-8113-2687863cbca7",
           "name" : "LogMessage",
           "penaltyDuration" : "30 sec",
@@ -4448,7 +4448,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "b692bf08-a599-3ec9-aac5-00b95ab6acb1",
           "name" : "StackOutputs",
           "penaltyDuration" : "30 sec",
@@ -4498,7 +4498,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "26e64df6-46bc-3520-bee0-67a109164e0a",
           "name" : "Create Projects",
           "penaltyDuration" : "30 sec",
@@ -4584,7 +4584,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "c704c5b1-77cd-3030-be06-0197c72c847f",
           "name" : "return status:processing",
           "penaltyDuration" : "30 sec",
@@ -4641,7 +4641,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "3bf8534c-e60d-3fa3-a8a7-5cd66f65d69d",
           "name" : "Push files",
           "penaltyDuration" : "30 sec",
@@ -4727,7 +4727,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "d9981e10-f55d-3bc8-954b-4990bda72dc3",
           "name" : "HandleHttpResponse",
           "penaltyDuration" : "30 sec",
@@ -4772,7 +4772,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "9a0a7f24-c7ab-38ee-96ef-bc02ded8c780",
           "name" : "Routes",
           "penaltyDuration" : "30 sec",
@@ -4845,7 +4845,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "9a00fb02-7cd5-3c89-bf98-2e93614f7636",
           "name" : "If index.part is used go to chaning it to index names",
           "penaltyDuration" : "30 sec",
@@ -4890,7 +4890,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "d797ebec-cee5-3150-b497-d965ac1574b8",
           "name" : "HandleHttpResponse",
           "penaltyDuration" : "30 sec",
@@ -4935,7 +4935,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "fc06877c-5a15-357f-91d3-fce2e9ddc1b7",
           "name" : "Set tmp file name",
           "penaltyDuration" : "30 sec",
@@ -4999,7 +4999,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "71aaf919-7204-32b5-a542-701e844c9aa9",
+          "groupIdentifier" : "ce073d8a-2149-3062-b2db-6eed9bb5a964",
           "identifier" : "e801ffa8-2768-30ac-b099-2bab084f0b4e",
           "name" : "Json file to attributes",
           "penaltyDuration" : "30 sec",
