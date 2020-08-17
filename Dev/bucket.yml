@@ -1,5 +1,6 @@
 flows:
-  9f85d8ef-71ab-491a-a47e-911982d99416: {ver: 2, file: TestPush.snapshot, comments: Move
-      block, author: anonymous, created: 1597647957784, flowName: TestPush, flowDesc: ''}
+  9f85d8ef-71ab-491a-a47e-911982d99416: {ver: 3, file: TestPush.snapshot, comments: Move
+      block again, author: anonymous, created: 1597648016190, flowName: TestPush,
+    flowDesc: ''}
 layoutVer: 1
 bucketId: 87a711d4-91c0-4a87-8d62-c88b19e985a3
